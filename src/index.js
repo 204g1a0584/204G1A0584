@@ -1,8 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// custom routing
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Train from "./pages/Train"
+import Main from "./pages/Main"
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes >
+        <Route path="/" element={<Main />} />
+        <Route path="/train/trains" element={<Home />} />
+        <Route path="/train/trains/123" element={<Train />} />
+
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
