@@ -14,13 +14,14 @@ Your app is ready to be deployed!
 ## Screenshots
 
 ### Main Landing Page
-![ss1](./screenshots/mainpage.png)
+
+<img width="960" alt="mainpage" src="https://github.com/204g1a0584/204G1A0584/assets/79386814/e1c7676f-d42c-441a-94ed-42f954bcc2f7">
 
 ### /train/trains
-![ss2](./screenshots/list.png)
 
+<img width="960" alt="list" src="https://github.com/204g1a0584/204G1A0584/assets/79386814/e7879626-c91c-47cd-bde3-352fa9e80964">
 ### /train/trains/:trainid
-![alt](./screenshots/train.png)
 
+<img width="960" alt="train" src="https://github.com/204g1a0584/204G1A0584/assets/79386814/88125e2b-8dde-4377-9478-e057e38df554">
 
 
