@@ -2,7 +2,9 @@ function Main() {
 
 
 
-	return <h1>Main Page</h1>;
+	return <h1>Train Central Main Page <br>
+			visit /train/trains
+		</h1>;
 }
 
 

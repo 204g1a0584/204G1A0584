@@ -1,4 +1,4 @@
-import { Routes, Route, useParams } from 'react-router-dom';
+import { Routes, Route, useNavigate, useParams } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 
 const cred = {
@@ -58,6 +58,13 @@ function Train() {
 
 	}, [])
 
+	const navigate = useNavigate()
+
+	const handleClick = (e) => {
+		console.log(e.target)
+		navigate(`/train/trains`)
+	}
+
 
 	return  <div className="container mt-4">
       <h1>Train Information</h1>
@@ -95,6 +102,8 @@ function Train() {
           </tr>
         </tbody>
       </table>
+
+      <button onClick={handleClick} className="btn btn-primary">Home</button>
     </div>
 }
 
