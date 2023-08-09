@@ -40,7 +40,7 @@ function Home() {
 
 	}, [])
 
-	return <div>
+	return <div className="container-md">
 		<h1> Train Central dashboard </h1>
 		{trainData.map(item => <TrainInfoBox trainData={item} />) }
 
@@ -57,7 +57,7 @@ function TrainInfoBox({ trainData }) {
 
 
   return (
-    <div className="card mt-4">
+    <div className="card mt-4 border-0 shadow-lg">
       <div className="card-body">
         <h5 className="card-title">Train Information</h5>
         <p className="card-text">
