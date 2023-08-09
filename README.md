@@ -12,14 +12,15 @@ Your app is ready to be deployed!
 
 
 ## Screenshots
+
 ### Main Landing Page
-![alt](/screenshots/mainpage.png)
+![ss1](./screenshots/mainpage.png)
 
 ### /train/trains
-![alt](/screenshots/list.png)
+![ss2](./screenshots/list.png)
 
 ### /train/trains/:trainid
-![alt](/screenshots/train.png)
+![alt](./screenshots/train.png)
 
 
 
