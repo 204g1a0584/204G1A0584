@@ -41,7 +41,7 @@ function Home() {
 	}, [])
 
 	return <div>
-
+		<h1> Train Central dashboard </h1>
 		{trainData.map(item => <TrainInfoBox trainData={item} />) }
 
 		</div>;
