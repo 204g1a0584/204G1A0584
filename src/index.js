@@ -9,13 +9,15 @@ import Home from "./pages/Home";
 import Train from "./pages/Train"
 import Main from "./pages/Main"
 
+import 'bootstrap/dist/css/bootstrap.css';
+
 export default function App() {
   return (
     <BrowserRouter>
       <Routes >
         <Route path="/" element={<Main />} />
         <Route path="/train/trains" element={<Home />} />
-        <Route path="/train/trains/123" element={<Train />} />
+        <Route path="/train/trains/:tid" element={<Train />} />
 
       </Routes>
     </BrowserRouter>
